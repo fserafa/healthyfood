@@ -1,121 +1,184 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <title>Healthy Food</title>
+  </head>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/custom.css">
-  <title>Healthy Food</title>
-</head>
+  <body>
+    <header class="header-bg">
+      <nav class="navbar navbar-expand-lg container d-flex navbar-light">
+        <a class="navbar-brand" href="#">Healthy Food</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Alterna navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >HEALTHY RECIPES<span class="sr-only">(Página atual)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">JOIN</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-primary">REGISTER</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="container">
+        <h1>Ready for Trying a new recipe?</h1>
+        <form>
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Default"
+              aria-describedby="inputGroup-sizing-default"
+            />
+          </div>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </form>
+      </section>
+    </header>
+    <main class="recipes-section">
+      <section class="container text-center">
+        <h1>Our Best Recipes</h1>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light container">
-      <a class="navbar-brand" href="#">Healthy Food</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">HEALTHY RECIPES <span class="sr-only">(Página atual)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">BLOG</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">JOIN</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">REGISTER</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <section class="d-flex container">
-      <div class="">
-        <h1>Ready for Trying a new</h1>
-      </div>
-      <div>
-        <img src="./img/Illustration.svg" alt="" title="" />
-      </div>
-    </section>
-  </header>
-  <main class="recipes-section">
-    <section class="container text-center"">
-      <h1>Our Best Recipes</h1>
-      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-        there live the blind texts.</p>
-
-      <div class="row">
-        <div class="col">
-          <article>
-            <img src="./img/comida_1.svg" alt="" title="" />
-            Broccoli Salad with Bacon
-          </article>
+        <div class="row">
+          <div class="col">
+            <article>
+              <img src="./img/comida_1.svg" alt="" title="" />
+              Broccoli Salad with Bacon
+              <button type="button" class="btn btn-primary">See Recipe</button>
+            </article>
+          </div>
+          <div class="col">
+            <article>
+              <img src="./img/comida_2.svg" alt="" title="" />
+              Classic Beef Burgers
+              <button type="button" class="btn btn-primary">See Recipe</button>
+            </article>
+          </div>
         </div>
-        <div class="col">
-          <article>
-            <img src="./img/comida_2.svg" alt="" title="" />
-            Classic Beef Burgers
-          </article>
+        <div class="row">
+          <div class="col">
+            <article>
+              <img src="./img/comida_3.svg" alt="" title="" />
+              Classic Potato Salad
+              <button type="button" class="btn btn-primary">See Recipe</button>
+            </article>
+          </div>
+          <div class="col">
+            <article>
+              <img src="./img/comida_4.svg" alt="" title="" />
+              Cherry Cobbler on the Grill
+              <button type="button" class="btn btn-primary">See Recipe</button>
+            </article>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <article>
-            <img src="./img/comida_3.svg" alt="" title="" />
-            Classic Potato Salad
-          </article>
-        </div>
-        <div class="col">
-          <article>
-            <img src="./img/comida_4.svg" alt="" title="" />
-            Cherry Cobbler on the Grill
-          </article>
-        </div>
-      </div>
-    </section>
-    <section>
+      </section>
+      <section>
         <img src="./img/bloco_services.svg" alt="" title="" />
-
-    </section>
-    <section>
+        <h1>The best services ready To serve you</h1>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <p>
+          Separated they live in Bookmarksgrove right at the coast of the
+          Semantics, a large language ocean.
+        </p>
+        <p>
+          A small river named Duden flows by their place and supplies it with
+          the necessary regelialia.
+        </p>
+        <button type="button" class="btn btn-primary">Know More</button>
+      </section>
+      <section>
         <h1>Read Our Blog</h1>
-        <p>Far far away, behind the word mountains,  
-          far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-
-    </section>
-    <section>
-        <h1>Read Our Blog</h1>
-        <p>Far far away, behind the word mountains,  
-          far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <article>
+          <img src="./img/blog_image_1.svg" alt="" title="" />
+          Quick-start guide to nuts and seeds
+        </article>
+        <article>
+          <img src="./img/bloco_image_2.svg" alt="" title="" />
+          Nutrition: Tips for Improving Your Health
+        </article>
+        <article>
+          <img src="./img/bloco_image_3.svg" alt="" title="" />
+          The top 10 benef its of eating healthy
+        </article>
+        <article>
+          <img src="./img/bloco_image_4.svg" alt="" title="" />
+          Quick-start guide to nuts and seeds
+        </article>
+      </section>
+      <section>
+        <div class="container">
+          <h1>Join our membership to get special offer</h1>
+  
           <img src="./img/bloco_final_image.svg" alt="" title="" />
+        </div>
+      </section>
+    </main>
 
-    </section>
-  </main>
+    <footer></footer>
 
-  <footer>
-
-  </footer>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

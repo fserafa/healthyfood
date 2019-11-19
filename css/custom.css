@@ -1,3 +1,11 @@
 .recipes-section {
-    background-color: #FAFAFC;
+  background-color: #fafafc;
+}
+
+.header-bg {
+  background-image: url("../img/Illustration.svg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 }
