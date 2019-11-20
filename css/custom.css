@@ -9,3 +9,19 @@
   background-size: contain;
   background-position: right;
 }
+
+.section-services {
+  background-image: url("../img/bloco_services.svg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+.section-final {
+  background-image: url("../img/bloco_final_image.svg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}

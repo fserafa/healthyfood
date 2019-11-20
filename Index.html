@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <header class="header-bg">
+    <header>
       <nav class="navbar navbar-expand-lg container d-flex navbar-light">
         <a class="navbar-brand" href="#">Healthy Food</a>
         <button
@@ -56,20 +56,42 @@
           </ul>
         </div>
       </nav>
-      <section class="container">
-        <h1>Ready for Trying a new recipe?</h1>
-        <form>
-          <div class="input-group mb-3">
-            <input
-              type="text"
-              class="form-control"
-              aria-label="Default"
-              aria-describedby="inputGroup-sizing-default"
-            />
-          </div>
-          <button class="btn btn-outline-secondary" type="button">Button</button>
-        </form>
+    
+      <section class="container pr-0 mr-0" >
+          <div>
+              <h1>Ready for Trying a new recipe?</h1>
+              <form>
+                <div class="input-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default"
+                  />
+                </div>
+                <button class="btn btn-outline-secondary" type="button">
+                  Button
+                </button>
+              </form>
+            </div>
+          <img class="float-right" src="./img/Illustration.svg" alt="" title="" />
+
+        
       </section>
+      <div class="row container">
+        <div class="col">
+          <p>opa</p>
+        </div>
+        <div class="col">
+          <p>opa</p>
+        </div>
+        <div class="col">
+          <p>opa</p>
+        </div>
+        <div class="col">
+          <p>opa</p>
+        </div>
+      </div>
     </header>
     <main class="recipes-section">
       <section class="container text-center">
@@ -112,23 +134,28 @@
           </div>
         </div>
       </section>
-      <section>
-        <img src="./img/bloco_services.svg" alt="" title="" />
-        <h1>The best services ready To serve you</h1>
-        <p>
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts.
-        </p>
-        <p>
-          Separated they live in Bookmarksgrove right at the coast of the
-          Semantics, a large language ocean.
-        </p>
-        <p>
-          A small river named Duden flows by their place and supplies it with
-          the necessary regelialia.
-        </p>
-        <button type="button" class="btn btn-primary">Know More</button>
+      <section class="d-flex flex-row section-services">
+        <!-- <img src="./img/bloco_services.svg" alt="" title="" /> -->
+        <div
+          class="d-flex flex-column justify-content-center align-content-end container w-50"
+        >
+          <h1>The best services ready To serve you</h1>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+          <p>
+            Separated they live in Bookmarksgrove right at the coast of the
+            Semantics, a large language ocean.
+          </p>
+          <p>
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+          <button type="button" class="btn btn-primary">Know More</button>
+        </div>
       </section>
+
       <section>
         <h1>Read Our Blog</h1>
         <p>
@@ -153,10 +180,10 @@
         </article>
       </section>
       <section>
-        <div class="container">
+        <div class="container section-final">
           <h1>Join our membership to get special offer</h1>
-  
-          <img src="./img/bloco_final_image.svg" alt="" title="" />
+
+          <!-- <img src="./img/bloco_final_image.svg" alt="" title="" /> -->
         </div>
       </section>
     </main>
